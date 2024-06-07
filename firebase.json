@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "RotecWebsite",
+    "public": "../RotecWebsite",
     "ignore": [
       "firebase.json",
       "**/.*",
