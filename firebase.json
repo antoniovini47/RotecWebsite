@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "RotecWebsite",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
