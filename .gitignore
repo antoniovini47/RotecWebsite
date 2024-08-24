@@ -64,4 +64,4 @@ node_modules/
 
 # dotenv environment variables file
 .env
-src/assets/app-ads.txt
+public/app-ads.txt
