@@ -1,28 +1,28 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
   return (
     <>
       <div className="card">
-        <div>
-          <a href="https://vitejs.dev" target="_blank">
-            <img src={viteLogo} className="logo" alt="Vite logo" />
-          </a>
-          <a href="https://react.dev" target="_blank">
-            <img src={reactLogo} className="logo react" alt="React logo" />
-          </a>
-        </div>
-        <h1>Hello, fellow!</h1>
+        <h1>Hello, fellow! 👋</h1>
         <p>
           <button onClick={() => (window.location.href = "https://github.com/antoniovini47")}>
-            GitHub
+            GitHub - Antonio
           </button>
         </p>
         <p>
           <button onClick={() => (window.location.href = "https://linkedin.com/in/antoniovini47")}>
-            LinkedIn
+            LinkedIn - Antonio
+          </button>
+        </p>
+        <h1>Apps</h1>
+        <p>
+          <button
+            onClick={() =>
+              (window.location.href =
+                "https://play.google.com/store/apps/details?id=com.rotech.iadieta")
+            }>
+            Android App: IA Dieta
           </button>
         </p>
         <p>
